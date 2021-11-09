@@ -1,0 +1,46 @@
+*{
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.calculator {
+    display: flex;
+    width: 700px;
+    height: 400px;
+    border-style: solid;
+    margin: 150px auto;
+    background: rgb(133, 165, 165);
+    padding: 75px;
+}
+.calculator .row {
+    width: 100px;
+    height: 100px;
+    font-size: 35px;
+    align-items: center;
+    margin: 5px;
+}
+.calculator >button{
+    cursor: pointer;
+    background-color: rgb(216, 219, 219);
+    text-align: center;
+    box-sizing: 5rem;
+    border-style: solid;
+}
+#TotalEq {
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    background-color: rgb(230, 235, 235);
+    position: fixed;
+    left: 320px;
+    border-style: solid;
+}
+#currentValue {
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    background-color: rgb(230, 235, 235);
+    position: fixed;
+    left: 700px;
+    border-style: solid;
+}
